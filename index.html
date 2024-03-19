@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardcore - Minecraft Wiki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <article>
+        <article class="main-article">
             <header>
                 <h1>
                     Hardcore
                 </h1>
-                <div>This feature is exclusive to Java Edition.</div>
-                <p>Hardcore is a variant of Survival and one of the main game modes in Minecraft. In this mode, the world is locked to Hard difficulty and the player cannot respawn after dying</p>
-                <figure>
+                <div class="info"><span class="info-ikon">i</span>This feature is exclusive to Java Edition.</div>
+                
+                <figure class="float-right w-30">
                     <a href="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/53/Hardcore_Death.png/revision/latest?cb=20230822170426">
                         <img src="./assets/imagies/Hardcore_Death.webp" alt="Hardcore_Death">
                     </a>
                     <figcaption>The hardcore mode "You Died" screen, where it says 'Game Over!' instead of 'You Died!'</figcaption>
                 </figure>
-                <nav>
-                    <h3>contents</h3>
-                <ol>
+                <p>Hardcore is a variant of Survival and one of the main game modes in Minecraft. In this mode, the world is locked to Hard difficulty and the player cannot respawn after dying</p>
+                <nav class="nav-menu">
+                    <h3 class="title-menu">contents</h3>
+                <ol class="nav-list">
                     <li><a href="#Features">Features</a></li>
                     <li><a href="#Multiplayer">Multiplayer</a></li>
                     <li><a href="#History">History</a></li>
@@ -37,15 +39,15 @@
             <section id="Features">
                 <h2>Features</h2>
                 <hr>
-                <figure>
+                <figure class="float-right w-40">
                     <img src="./assets/imagies/Hardcore_button.webp" alt="Hardcore_button">
                     <figcaption>The game mode button showing Hardcore</figcaption>
                 </figure>
                 <p>The key feature of Hardcore mode is that the player is not given the option to respawn upon death as they would in other game modes. Instead, there are two buttons on the death screen: "Spectate world" and "Title screen". "Spectate world" sets the player to Spectator mode and respawns the player at the world's spawn point, making them able to view and explore the world only in that mode. The "Title screen" button simply leads the player to the main menu screen; re-opening the world simply returns the player back to the same death screen as before. Respawn anchors do not resurrect players in Hardcore mode.</p>
                 <p>When creating a Hardcore mode world, the Enable Cheats and Bonus Chest world options are locked to OFF. On the world selection menu, Hardcore mode worlds display dark red text reading "Hardcore Mode!"</p>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
+                <figure class="w-35">
+                    <img src="./assets/imagies/Hardcore_Heart.svg" alt="Hardcore_Heart.svg">
+                    <figcaption>While in Hardcore mode, the hearts representing the player's health look different, as they include dark red marks inside the icon</figcaption>
                 </figure>
                 <p>Hardcore mode is specific to worlds, not players; the variable determining whether the world is in Hardcore mode is saved in level.dat. Thus, the player can use /gamemode creative (if cheats are enabled) to set themselves to Creative mode. Players in Creative mode while on a Hardcore mode world still see Hardcore mode's death screen upon death.</p>
                 <P>It is normally impossible to toggle Hardcore mode once the world has been created, though it is possible to use external programs such as NBTExplorer to change it by setting the hardcore tag to either 1 (hardcore) or 0 (normal).</P>
@@ -55,13 +57,25 @@
             <section id="Multiplayer"><h2>
                 Multiplayer 
             </h2>
+            <hr>
             <p>Hardcore mode is an option for multiplayer, and its functions are similar to those in singleplayer. All players have Hardcore mode enabled — it is impossible to have some players in Hardcore and some not. Hardcore mode cannot be played in Realms.</p>
             <p>Server operators can use the /gamemode command to change the game mode of themselves or another player</p>
             </section>
             <section id="History">
                 <h2>History</h2>
                 <hr>
-                <table border="1">
+                <div class="float-right w-35">
+                    <figure>
+                        <img src="./assets/imagies/Hardcoremode.webp" alt="Hardcoremode.webp"> 
+                        <figcaption>The Hardcore mode button posted on Twitter by Notch.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/imagies/Hardcore_Death.webp" alt="Hardcore_Death.webp">
+                        <figcaption>Notch's first image of a Hardcore death screen.
+                        </figcaption>
+                    </figure>
+                </div>
+                <table class="table-history">
                     <tr>
                         <th colspan="3"> 
                             <a href="https://minecraft.fandom.com/wiki/Java_Edition_Beta">Java_Edition_Beta</a>
